@@ -5,10 +5,6 @@ h1 {
     font-family: 'Abel', sans-serif;
 }
 
-html {
-    background:url(../pics/pic\ 6.jpg);
-    background-size: cover;
-}
 
 
 /* .close {
@@ -56,6 +52,7 @@ label {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: cursive;
 }
  hr {
      width: 100%;
@@ -67,11 +64,12 @@ label {
 
 .modalcontent-posts {
     width: 50%;
-    background-color: #ffffff;
     margin: auto;
     padding: 30px;
-    border: 1px solid #888;
-
+    border-radius: 50px;
+    background: linear-gradient(145deg, #308383, #399b9c);
+    box-shadow:  25px 25px 50px #2d7b7c,
+             -15px -15px 50px #3da7a8;
 }
 
 .Title-create {
@@ -91,10 +89,11 @@ label {
 }
 
 .Sub-re{
-  background-color: #68b313;
+  background-color: #000000;
   color: #fff;
   padding: 15px 0 15px 0;
   font-size: 1.2em;
+  font-weight: 200px;
   margin-top: 30px;
   border: 0;
   cursor: pointer;
@@ -104,14 +103,12 @@ label {
 }
 
 .Goback {
-    background-color: white;
-    border: 2px solid black;
-    color: rgb(100, 90, 3);
-    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    background-color: #308383;
     text-align: center;
     display: inline-block;
-    font-size: 20px;
-    font-weight: 200px;
+    font-size: 22px;
+    font-weight: 250px;
     margin: 10px 30px;
     cursor: pointer;
 }
@@ -119,6 +116,9 @@ label {
 .butt {
     margin-top: 10px;
     margin-left: 1300px;
+    
 }
+
+
 
 

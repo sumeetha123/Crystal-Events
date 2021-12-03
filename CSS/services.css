@@ -1,10 +1,10 @@
 /*styles for all classes that we included in bloglist page */
-body {
-    background-color: orange;
-}
+/* body {
+    background-color: rgb(255, 166, 0);
+} */
 
 .flexbox {
-    background-color: white;
+    
     opacity: 100;
     border-radius: 25px;
     display: flex;
@@ -112,9 +112,9 @@ h6 {
 } 
 
 .Goback {
-  background-color: orange;
+  
   border: 2px solid black;
-  color: rgb(100, 90, 3);
+  color: rgb(255, 255, 255);
   padding: 5px 10px;
   text-align: center;
   display: inline-block;

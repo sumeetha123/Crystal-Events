@@ -6,7 +6,9 @@
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
     <meta charset="utf-8">
+    <link href="https://unpkg.com/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../CSS/fonts.css">
     <link rel="stylesheet" href="../CSS/appoint.css">
     <script src="https://kit.fontawesome.com/843f31a33f.js" crossorigin="anonymous"></script>
 
@@ -65,27 +67,28 @@
 <div>
     <div class="butt">
         <a href="../HTML/Menu.html">
-            <button class="Goback">Our Services</button>
+            <button class="Goback rounded-lg px-3 py-2">Our Services</button>
     </a>
 </div>
         <div class="modalcontent-posts">
             <div class="Createposts-form">
-                <form class="form">
-                    <h1 class="heading">Book Appointment</h1>
+                <form class="form ">
+                    <h1 class="heading text-4xl">Book&nbsp; Appointment</h1>
                     <hr>
-                    <label class="labelText">Name</label>
-                    <input type="text" class="Title-create" required>
-                    <br>
-                    <label class="labelText">Email Address</label>
-                    <pre><input type="email" class="Tit-create" placeholder="eg. abc@gmail.com" required></pre>
-                    <label class="labelText">Phone Number</label>
-                    <pre><input type="tel" class="Tit-create" placeholder="eg. 9389292882" required></pre>  
+                    <label class="labelText text-xl ">Name</label>
+                    <input type="text" class="Title-create bg-white" placeholder="Full name" required>
+                    
+                    <label class="labelText text-xl">Email Address</label>
+                    <pre><input type="email" class="Tit-create bg-white"  placeholder="eg. abc@gmail.com" required></pre>
+                    <label class="labelText text-xl">Phone Number</label>
+                    <pre><input type="tel" class="Tit-create bg-white" placeholder="eg. 9389292882" required></pre>  
                     </div>
-                    <h4>Appointment request</h4>
                     <br>
-                    <label>Date</label>
-                    <pre><input type="date" class="Tit-create" required></pre>
-                    <div class="inline">
+                    <h4 class="text-2xl font-bold pb-2">Appointment request</h4>
+                    <br>
+                    <label class="text-xl">Date</label>
+                    <pre><input type="date" class="Tit-create bg-white" required></pre>
+                    <div class="inline text-xl">
                         <label>
                             <input type="radio" name="Confirmation requested by" value="email" checked>
                             Morning
@@ -95,9 +98,9 @@
                             Afternoon
                         </label>
                     </div>
-                    
-                    <h4>Confirmation request by</h4>
-                    <div class="inline">
+                    <br>
+                    <h4 class="text-2xl font-bold pb-4 pt-4">Confirmation request by</h4>
+                    <div class="inline text-xl">
                         <label>
                             <input type="checkbox" name="Confirmation requested by" value="email" checked>
                             Email
@@ -107,8 +110,10 @@
                             Phone call
                         </label>
                     </div>
-                    <button class="Sub-re">Submit request</button>
-                </form>
+                    <div class="flex flex-row-reverse">
+                        <button class="Sub-re rounded-lg">Submit request</button>
+                    </div>
+                    </form>
             </div>
         </div>
     </div>

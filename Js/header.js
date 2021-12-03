@@ -2,11 +2,11 @@
 var Modal = document.getElementById("ModalA");
 var btn = document.getElementById("SIGN UP");
 var span = document.getElementsByClassName("close")[1];  //code for close button
-btn.onclick = function () {
+btn.onclick = function () {     //show block when clicked
     Modal.style.display = "block";
 }
 span.onclick = function () {
-    Modal.style.display ="none";
+    Modal.style.display ="none";       
 }
 window.onclick =function (event) {
     if (event.target == Modal) {
